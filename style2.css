@@ -1,0 +1,118 @@
+body{
+    background-color: #8fbdd3
+}
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da barra superior */
+.top-bar {
+    background-color: #94918f;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 3px solid black;
+    border-top: 3px  solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+
+}
+
+/* Estilo do texto */
+.top-bar h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Container para centralizar */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+/* Estilo da coluna */
+.coluna {
+    width: 20%; /* Define a largura da coluna */
+    height: 100vh; /* Altura da coluna igual à altura da tela */
+    background-color: #e8c39e; /* Cor de fundo */
+    border-right: 5px solid black; /* Borda à direita */
+    box-sizing: border-box; /* Inclui a largura da borda na largura total */
+    float: left; /* Faz com que a coluna flutue à esquerda */
+}
+
+/* Estilo do conteúdo dentro da coluna */
+.conteudo {
+    padding: 20px; /* Adiciona algum espaço interno para o conteúdo */
+}
+
+/* Estilo para o restante do conteúdo */
+.conteudo-restante {
+    margin-left: 30%; /* Define a margem à esquerda para evitar que o conteúdo se sobreponha à coluna */
+}
+
+/* Estilo do rodapé */
+.rodape {
+    background-color: #e6c3ad; /* Cor de fundo em tom pastel */
+    height: 60px; /* Altura da barra */
+    border-top: 5px solid black; /* Borda na parte superior */
+    text-align: right; /* Alinhamento do texto à direita */
+    position: fixed; /* Fixa o rodapé na parte inferior da janela */
+    bottom: 0; /* Coloca o rodapé no fundo */
+    width: 100%; /* Largura total */
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px  solid black;
+}
+
+/* Estilo do texto "Criado por CEFET-MG" */
+.criado-por {
+    padding: 5px; /* Espaçamento interno */
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+label {
+    display: block; /* Exibe cada label em uma nova linha */
+    width: 60%; /* Largura igual a 50% da largura da coluna */
+    border: 1px solid black; /* Borda cinza */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaço entre as labels */
+}
+
+
+
+/* Estilo dos botões */
+/* Estilo dos botões */
+button, input[type="button"] {
+    display: block; /* Exibe cada botão em uma nova linha */
+    width: 50%; /* Largura igual a 50% da largura da coluna */
+    border-radius: 4px; /* Borda cinza */
+    background-color: #92d2ea; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaço entre os botões */
+    transition: transform 0.2s ease; /* Transição suave no efeito de transformação */
+    
+}
+
+/* Efeito ao ser clicado */
+button:hover, input[type="button"]:hover {
+    transform: translateY(-3px); /* Move o botão para cima quando hover */
+}
+
+/* Efeito ao ser pressionado */
+button:active, input[type="button"]:active {
+    transform: translateY(1px); /* Move o botão para baixo quando pressionado */
+}
+img{
+    width: 50%;
+  
+    top: 0; /* Posiciona no topo */
+    left: 0; /* Posiciona na esquerda */
+}
